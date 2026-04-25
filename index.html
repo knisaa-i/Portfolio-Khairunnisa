@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khairunnisa — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">KHAIRUNNISA<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#experience">Pengalaman</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hubungi Saya</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">PORTFOLIO</div>
+    <div class="hero-content">
+      <p class="hero-greeting fade-in delay-1">Halo, saya</p>
+      <h1 class="hero-name fade-in delay-2">Khairunnisa<span class="dot">.</span></h1>
+      <p class="hero-title fade-in delay-3">
+        <span class="typed-text" id="typed"></span><span class="cursor-blink">|</span>
+      </p>
+      <p class="hero-desc fade-in delay-4">
+        Lulusan S1 Teknik Informatika yang bersemangat membangun solusi digital inovatif — dari antarmuka yang intuitif hingga sistem back-end yang tangguh.
+      </p>
+      <div class="hero-actions fade-in delay-5">
+        <a href="#projects" class="btn-primary">Lihat Proyek</a>
+        <a href="assets/Khairunnisa_CV_Academy.pdf" class="btn-secondary" download>Unduh CV</a>
+      </div>
+      <div class="hero-scroll fade-in delay-5">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+    <div class="hero-visual fade-in delay-3">
+      <div class="avatar-ring">
+        <div class="avatar-placeholder">
+          <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="45" r="25" fill="var(--accent)" opacity="0.8"/>
+            <ellipse cx="60" cy="100" rx="38" ry="22" fill="var(--accent)" opacity="0.8"/>
+          </svg>
+        </div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+      </div>
+      <div class="floating-badge badge-1">
+        <span class="badge-icon">🎓</span>
+        <div>
+          <small>Pendidikan</small>
+          <strong>S1 Teknik Informatika</strong>
+        </div>
+      </div>
+      <div class="floating-badge badge-2">
+        <span class="badge-icon">⚡</span>
+        <div>
+          <small>Status</small>
+          <strong>Fresh Graduate</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">01 — Tentang Saya</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Membangun hal-hal yang <em>bermakna</em></h2>
+          <p>Saya Khairunnisa, lulusan S1 Teknik Informatika yang memiliki ketertarikan mendalam pada pengembangan perangkat lunak, khususnya di bidang <strong>web development</strong> dan <strong>data analytics</strong>.</p>
+          <p>Senang bekerja dalam tim, tetap teratur, memiliki keterampilan komunikasi yang baik dan mampu menangani berbagai tanggung jawab dengan tetap menjaga sikap positif.</p>
+          <p>Saya percaya bahwa teknologi terbaik adalah yang tidak hanya bekerja dengan baik, tetapi juga mudah dipahami dan digunakan oleh semua orang.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <strong class="stat-num">1+</strong>
+              <span>Proyek Selesai</span>
+            </div>
+            <div class="stat-item">
+              <strong class="stat-num">3.7</strong>
+              <span>IPK</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info-card">
+          <h3>Informasi Pribadi</h3>
+          <ul class="info-list">
+            <li><span class="info-label">Nama</span><span>Khairunnisa</span></li>
+            <li><span class="info-label">Email</span><span>knisaaarm@email.com</span></li>
+            <li><span class="info-label">Lokasi</span><span>Padang, Sumatera Barat</span></li>
+            <li><span class="info-label">Universitas</span><span>Universitas Putra Indonesia YPTK Padang</span></li>
+            <li><span class="info-label">Jurusan</span><span>Teknik Informatika</span></li>
+            <li><span class="info-label">Tahun Lulus</span><span>2026</span></li>
+            <li><span class="info-label">Bahasa</span><span>Indonesia, Inggris (Basic)</span></li>
+          </ul>
+          <a href="assets/Khairunnisa_CV_Academy.pdf" class="btn-outline" download>📄 Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Keahlian</div>
+      <h2 class="section-title">Stack Teknologi Saya</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🎨</span>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag level-expert">HTML</span>
+            <span class="skill-tag level-expert">CSS3</span>
+            <span class="skill-tag level-mid">JavaScript</span>
+            <span class="skill-tag level-mid">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">⚙️</span>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag level-expert">PHP</span>
+            <span class="skill-tag level-beginner">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🗄️</span>
+            <h3>Database</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag level-expert">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🛠️</span>
+            <h3>Tools & DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag level-expert">VS Code</span>
+            <span class="skill-tag level-mid">Git & GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📊</span>
+            <h3>Data & AI</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag level-mid">Python (Pandas)</span>
+            <span class="skill-tag level-mid">Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🧠</span>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag level-expert">Problem Solving</span>
+            <span class="skill-tag level-expert">Team Work</span>
+            <span class="skill-tag level-expert">Komunikasi</span>
+            <span class="skill-tag level-mid">Manajemen Waktu</span>
+            <span class="skill-tag level-mid">Adaptability</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="skill-legend">
+        <span><span class="skill-tag level-expert">●</span> Expert</span>
+        <span><span class="skill-tag level-mid">●</span> Intermediate</span>
+        <span><span class="skill-tag level-beginner">●</span> Beginner</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Proyek</div>
+      <h2 class="section-title">Karya Terbaik Saya</h2>
+
+      <div class="project-filter">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="web">Web App</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="data">Data / AI</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <div class="project-card" data-category="web">
+          <div class="project-image">
+            <div class="project-img-placeholder">
+              <span>📈</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn">Demo</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>MySQL</span><span>PHP</span>
+            </div>
+            <h3>Analisis Data Menggunakan Algoritma K-Means dan Apriori</h3>
+            <p>Website algoritma K-Means Clustering dan Apriori untuk menganalisis pola data.</p>
+            <div class="project-meta">
+              <span>📅 2026</span>
+              <span>🏆 Tugas Akhir</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-label">04 — Perjalanan</div>
+      <h2 class="section-title">Pengalaman & Pendidikan</h2>
+      <div class="timeline-grid">
+        <div class="timeline-col">
+          <h3 class="timeline-col-title">💼 Pengalaman</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2022</span>
+                <h4>Intern Digital Printing</h4>
+                <p class="timeline-company">UCL Digital Printing - Bukittinggi</p>
+                <p>Create simple banner and banner designs and print these products in physical form.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2025</span>
+                <h4>Intern at the Village Office</h4>
+                <p class="timeline-company">Community Service</p>
+                <p>Providing public services, such as issuing KTP (ID card) cover letters, poverty certificates, domicile certificates, and others.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-col">
+          <h3 class="timeline-col-title">🎓 Pendidikan</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2022 – 2026</span>
+                <h4>S1 Teknik Informatika</h4>
+                <p class="timeline-company">Universitas Putra Indonesia YPTK Padang</p>
+                <p>IPK: 3.7/4.0 — Konsentrasi Data Sains. Skripsi: "Penerapan Data Mining Menggunakan Algoritma K-Means dan Apriori untuk Menganalisis Pola Penjualan (Studi Kasus : Minimarket S-Mart)"</p>
+                <div class="timeline-tags"><span>IPK 3.7</span><span>Lulus 3,5 Tahun</span></div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2022</span>
+                <h4>SMKN 1 KOTO BARU</h4>
+                <p class="timeline-company">Multimedia</p>
+                <p>Aktif di OSIS, Bantara serta olahraga Bridge .</p>
+                <div class="timeline-tags"><span>Multimedia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">05 — Kontak</div>
+      <h2 class="section-title">Mari Berkolaborasi<span class="dot">!</span></h2>
+      <p class="contact-subtitle">Saya terbuka untuk peluang kerja, magang, atau diskusi menarik seputar teknologi.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Hubungi Saya</h3>
+          <div class="contact-items">
+            <a href="mailto:knisaaarm@email.com" class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <small>Email</small>
+                <strong>knisaaarm@email.com</strong>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/khairunnisa-knisaa/" class="contact-item" target="_blank">
+              <span class="contact-icon">💼</span>
+              <div>
+                <small>LinkedIn</small>
+                <strong>linkedin.com/in/khairunnisa</strong>
+              </div>
+            </a>
+            <a href="https://github.com/khairunnisa" class="contact-item" target="_blank">
+              <span class="contact-icon">💻</span>
+              <div>
+                <small>GitHub</small>
+                <strong>github.com/khairunnisa</strong>
+              </div>
+            </a>
+            <a href="https://wa.me/6282385816413" class="contact-item" target="_blank">
+              <span class="contact-icon">📱</span>
+              <div>
+                <small>WhatsApp</small>
+                <strong>+62 823 8185 6413</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">KN<span class="dot">.</span></div>
+        <p><strong>Khairunnisa</strong></p>
+        <div class="footer-links">
+          <a href="https://github.com/khairunnisa" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/khairunnisa-knisaa/" target="_blank">LinkedIn</a>
+          <a href="mailto:knisaaarm@email.com">Email</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Khairunnisa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
